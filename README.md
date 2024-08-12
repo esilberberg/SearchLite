@@ -1,7 +1,8 @@
 # SearchLite
 A lightweight, client-side search and discovery tool for displaying Google Sheet data on GitHub pages. Based on the [LACLI](https://lacli.info/) project.
 
-##Required Google Apps Script
+## Required Google Apps Script
+````
 function doGet(request) {
   var spreadsheetId = '1v6xA8q23YJjS8koBD8Bq-233uaDfIyETA4RXHReUZkk'; // Replace with Google Sheet ID
   var sheetName = 'Sheet1'; // Replace with the sheet you want to retrieve data from
@@ -24,3 +25,4 @@ function doGet(request) {
   var output = JSON.stringify(rows);
   return ContentService.createTextOutput(output).setMimeType(ContentService.MimeType.JSON);
 }
+````
