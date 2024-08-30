@@ -2,6 +2,7 @@
     --dark: #6B7C8F;
     --light: #F7882F;
     --highlight: #FBC231;
+    --gray: #EFEFEF;
     --neutral: #DCC8AC;
 }
 * {
@@ -19,18 +20,20 @@ header {
 }
 
 .header-content {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 2rem 0.5rem;
+    padding: 1rem 0.5rem;
+}
+
+.translation {
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    margin-bottom: 1rem;
 }
 
 h1 {
     font-size: 2rem;
-    margin-top: 1.5rem;
-}
-
-.header-content p {
-    font-size: 12px;
 }
 
 a {
