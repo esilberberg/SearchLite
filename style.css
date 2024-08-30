@@ -14,13 +14,31 @@ header {
     text-align: center;
     background-color: var(--dark);
     color: white;
-    padding: 3rem 0;
     border-bottom: 10px solid var(--neutral);
     margin-bottom: 2rem;
 }
 
+.header-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 0.5rem;
+}
+
 h1 {
     font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+.header-content p {
+    font-size: 12px;
+}
+
+a {
+    color: var(--light);
+}
+
+a:hover {
+    color: var(--highlight);
 }
 
 .search-bar {
@@ -55,14 +73,6 @@ main {
 
 .item-header h2 {
     font-size: 1.3rem;
-}
-
-.item-header a {
-    color: var(--light);
-}
-
-.item-header a:hover {
-    color: var(--highlight);
 }
 
 .item-header p {

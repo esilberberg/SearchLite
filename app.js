@@ -63,7 +63,7 @@ input.addEventListener('keypress', (event) => {
 function displayData(data) {
   let dataDisplay = data.map((object) => {
     return `
-<div class="item">
+<article class="item">
     <div class="item-header">
         <h2><a href="${object.URL}" target="_blank" rel="noopener noreferrer">${object.Resource_Title}</a></h2>
         <p>${object.Institutional_Hosts}</p>
@@ -78,7 +78,7 @@ function displayData(data) {
         <p><span class="inline-label">Time Coverage: </span>${object.Time_Coverage}</p>
         <p><span class="inline-label">Summary: </span>${object.Summary}</p>
     </div>
-</div>
+</article>
     `;
   }).join('');   
 
