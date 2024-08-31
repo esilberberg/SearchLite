@@ -29,7 +29,7 @@ function translatePage(language) {
 // Initial translation based on the default language
 translatePage(currentLanguage);
 
-// Handle language selection from anchor links
+// Handle language selection from translation language links
 document.querySelector('.translation').addEventListener('click', function (event) {
     const selectedLanguage = event.target.getAttribute('data-lang');
     if (selectedLanguage) {
