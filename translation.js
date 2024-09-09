@@ -9,7 +9,7 @@ const translations = {
         refreshBtn: 'Refresh',
     },
     es: {
-        welcomeMsg: 'Explora la colección',
+        welcomeMsg: 'Explorar la colección',
         searchBtn: 'Buscar',
         refreshBtn: 'Recargar',
     }
