@@ -1,6 +1,6 @@
 :root{
     --dark: #6B7C8F;
-    --light: #F7882F;
+    --main: #032a7e;
     --highlight: #FBC231;
     --gray: #EFEFEF;
     --neutral: #DCC8AC;
@@ -36,8 +36,12 @@ h1 {
     font-size: 2rem;
 }
 
+.translation a {
+    color: white;
+}
+
 a {
-    color: var(--light);
+    color: var(--main);
 }
 
 a:hover {
